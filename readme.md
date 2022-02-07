@@ -45,15 +45,9 @@ Obteremos como resposta:
 ]
 ```
 
-The `message` attribute contains a message commonly used to indicate errors or, in the case of deleting a resource, success that the resource was properly deleted.
-
-The `success` attribute describes if the transaction was successful or not.
-
-The `data` attribute contains any other metadata associated with the response. This will be an escaped string containing JSON data.
 
 ## Status Codes
 
-Gophish returns the following status codes in its API:
 
 | Status Code | Description |
 | :--- | :--- |
